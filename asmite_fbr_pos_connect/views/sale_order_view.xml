@@ -1,0 +1,12 @@
+<odoo>
+    <record id="view_order_form_inherit_fbr" model="ir.ui.view">
+        <field name="name">pos.order.form.fbr</field>
+        <field name="model">pos.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//group" position="inside">
+                <field name="x_fbr_inv"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

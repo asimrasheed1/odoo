@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Root Menu -->
+    <menuitem id="menu_asmite_fbr_pos_connect_root"
+              name="ASMIte FBR POS Connect"
+              sequence="10"/>
+
+    <!-- Action to Open External FBR Orders Page -->
+    <record id="action_asmite_fbr_pos_connect_open_url" model="ir.actions.act_url">
+        <field name="name">Sales Orders</field>
+        <field name="url">https://asmite.pk/baj/odoo/process_orders.php</field>
+        <field name="target">new</field> <!-- Open in new tab -->
+    </record>
+
+    <!-- Submenu linking to the external action -->
+    <menuitem id="menu_asmite_fbr_pos_connect_sales_orders"
+              name="Sales Orders"
+              parent="menu_asmite_fbr_pos_connect_root"
+              action="asmite_fbr_pos_connect.action_asmite_fbr_pos_connect_open_url"
+              sequence="1"/>
+</odoo>
