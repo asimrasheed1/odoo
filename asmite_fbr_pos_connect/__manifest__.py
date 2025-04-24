@@ -1,6 +1,6 @@
 {
     "name": "ASMIte FBR PoS Connect",
-    "version": "17.0.1.0",
+    "version": "16.0.1.0.0",  # Versioning based on Odoo version 16
     "author": "ASMIte Inc",
     "category": "Custom",
     "depends": ["sale", "account"],
@@ -10,8 +10,6 @@
     "installable": True,
     "application": True,
     "license": "LGPL-3",
-    "icon": "/asmite_fbr_pos_connect/static/description/icon.png",
-    "images": ["static/description/icon.png"],
     "summary": "FBR POS Integration for Pakistan",
     "description": "This app integrates Odoo with the FBR POS system to handle tax calculations and reporting in Pakistan."
 }
