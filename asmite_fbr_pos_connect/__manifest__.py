@@ -1,6 +1,6 @@
 {
     "name": "ASMIte FBR PoS Connect",
-    "version": "1.0",
+    "version": "17.0",
     "author": "ASMIte Inc",
     "category": "Custom",
     "depends": ["sale", "account"],
